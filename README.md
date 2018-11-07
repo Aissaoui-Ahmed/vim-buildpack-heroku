@@ -18,7 +18,7 @@
 #### 2- programmatically
 ```bash
 $ heroku login
-$ heroku https://github.com/Aissaoui-Ahmed/vim-buildpack-heroku -a `yourApp`  # you can "Vim" after Deploy
+$ heroku buildpacks:set https://github.com/Aissaoui-Ahmed/vim-buildpack-heroku -a `yourApp`  # you can "Vim" after Deploy
 $ heroku run bash -a `yourApp`
   ~$ vim
 ```
