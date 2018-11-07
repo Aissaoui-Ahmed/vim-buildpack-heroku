@@ -4,7 +4,7 @@ indent() {
   sed -u 's/^/       /'
 }
 
-echo "-----> Install vim 7.3"
+echo "-----> Install vim 8.0.738"
 BUILD_DIR=$1
 
 DOWNLOAD_URL="https://s3.amazonaws.com/bengoa/vim-static.tar.gz"
