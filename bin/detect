@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "heroku-buildpack-vim"
+echo "vim-buildpack-heroku"
 exit 0
